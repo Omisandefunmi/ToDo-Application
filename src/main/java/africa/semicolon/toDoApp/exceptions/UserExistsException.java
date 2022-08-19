@@ -1,4 +1,7 @@
 package africa.semicolon.toDoApp.exceptions;
 
-public class UserExistsException {
+public class UserExistsException extends ToDoAppException{
+    public UserExistsException(String message) {
+        super(message);
+    }
 }

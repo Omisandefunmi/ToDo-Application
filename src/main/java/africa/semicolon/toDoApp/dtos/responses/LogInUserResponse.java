@@ -1,2 +1,12 @@
-package africa.semicolon.toDoApp.dtos.responses;public class LogInUserResponse {
+package africa.semicolon.toDoApp.dtos.responses;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Setter
+@Getter
+@NoArgsConstructor
+public class LogInUserResponse {
+    private String message;
 }
